@@ -1,0 +1,359 @@
+---
+title: "Seattle Precipitation Analysis"
+author: "Finn Schmidt, Connor Boske"
+format:
+  html:
+    theme: default
+    embed-resources: true
+---
+Group Project Proposal
+Team Member Names: Connor Boske, Finn Schmidt
+
+Teaching Assistant: Alissa Lau
+
+Final Group Project Description
+● Describe your domains of interest
+My domains of interest are: We are trying to figure out how Seattle’s climate has changed from now
+since 1948 when airport records began. We are looking to see temperature and rainfall data from the National Weather Service, and take that quantitative data to find specific data trends and differences between the early days of Seattle’s record-keeping versus what we see more typically now.
+● Articulate pertinent questions in those domains
+Are Seattle summers warmer and drier than they used to be in the mid-1900s?
+Is Seattle getting wetter or drier on an annual basis?
+Do winters in Seattle receive less rain or snow than they used to receive?
+How many instances of maximum temperature of 80 degrees or above are recorded each year, and is there an
+upward trend?
+Has the frequency of extreme precipitation events increased? (Days with 1.00” or more of rain)
+Are there certain areas of Seattle more prone to extreme heat, such as places away from the water?
+Could other factors such as high urban density be what's causing certain areas to become more prone to
+extreme heat?
+● Identify and critically analyze data related to that domains
+Average maximum and minimum temperatures for June, July, and August
+Total annual precipitation trend
+Snowfall data annually (inches)
+Days per year with max temp 80+ (Fahrenheit)
+Days per year with rainfall total at or above 1”
+Neighborhoods most susceptible to heat
+Submission Details
+There are 2 separate submissions you will make using this same document:
+Part I: Story Pitch
+We want to tell the story that illustrates the shift Seattle's climate has undergone between 1948 to
+the present day. Historically, the Pacific Northwest has been defined by consistent rain, moderate
+temperatures, and a lack of extremes. This steady pace allowed for the region and overall culture to be
+built a certain way.
+However, recent trends suggest that this is changing rapidly. The data shows that the days of stability
+are quickly coming to an end. By using data from the National Weather Service, we plan to thoroughly
+analyze these changes and look at the countless ways they’re causing harm.
+Our target audience will mainly be specific groups such as city planners and climatologists, who want
+to make smart decisions about how to mitigate the issues caused by this.
+The strong central theme of our project is establishing a clear timeline of different climate trends
+during this period. We will be looking at more than just the generic “it’s getting warmer” that often
+dominates conversations regarding climate change. We are more so asking the question of how it is
+getting warmer, and who are the ones getting affected the worse by it. We will do this by analyzing
+very specific factors, such as the micro climates within specific parts of Seattle. By looking at multiple
+different underlying factors, we will analyze the transformation of Seattle's climate from a stable,
+temperate baseline to a new era defined by rapid changes.
+This topic impacts millions of people, from people whose homes are engineered for moderate
+temperatures, to urban planners struggling to manage infrastructure due to the rapid climate changes.
+The infrastructure mismatch will be part of the center of the conflict.
+Historically, Seattle has one of the lowest air conditioning rates in the country. In 2019, 44% of homes
+in King, Pierce and Snohomish counties had air conditioning., However, by 2023 this number had
+jumped all the way to 64%. Buildings in Seattle simply weren't built to withstand extreme
+temperatures. Seattle's draining system is also impacted by these rapid changes. This rise in such a
+short period of time is truly an unsustainable statistical anomaly which shows how rapidly these
+changes are affecting the average person. The 36% who still don't have A.C. are also left vulnerable.
+This was never more prevalent than in the 2021 heatwave, an event that helped expose Seattle's
+outdated infrastructure.
+The angle we will look at will allow us to show more than just the rising temperatures, but the
+multiple underlying components of climate volatility. Ultimately, this is a story about a city whose
+entire way of life is tied to a climate that won’t be here much longer. By analyzing the extreme changes
+Seattle is facing, we will offer intelligent insight into the literal and figurative costs of these changes.
+Literally, the cost is measured in the billions it takes to add needed things like air conditioning to adapt
+to the changes. Figuratively, the cost is measured in the erosion of an entire region's identity.
+Overall, our project will ask the question of whether or not a city can adapt fast enough to survive a new, rapidly changing world that is defined by volatility. We will show how and why this is a problem that plagues every person living in Seattle not just today but for the foreseeable future.
+
+The issues that the changing climate of Seattle are going through are impacting health and well-being of the residents, especially those that live within the reaches of the urban heat island effect who do not have access to air-conditioning.
+
+Part II: Find a Dataset
+Please provide a publicly accessible link to your data source.
+Paste your link here…
+https://www.weather.gov/wrh/Climate?wfo=sew
+“Why the Data”
+1. Who is your target audience? 
+Our target audience is mainly for Seattle city planners and climatologists in the Northwest who want
+to make informed decisions about the infrastructure in Seattle and how to mitigate the issues of a changing climate that include heatwaves, heavy rain, and strong windstorms. There has already been quite an effort to make buildings earthquake-resistant, but with only about 50% of Seattle households having at least a window unit, especially with the rise of multi-story apartments, these living conditions may become more unbearable.
+The topic/background of the data set is meteorology and climate data. It’s a very relevant topic right now, as
+well as the topic of heatwave mitigation (especially in cities that are typically mild.) A blistering heatwave in
+June 2021 made temperatures soar above 104F (or 40C) for many parts of Western Washington with some
+Eastside locations reporting above 110. For a city that has over 800,000 people, and a metro area with over
+4 million people, half of these people do not have any air conditioning whatsoever, which leaves a lot of
+people vulnerable. This is what made the 2021 heatwave so devastating. Our goal is to help people
+understand climate data to make informed decisions about the weather and the future all the way from city
+planning to outfit planning.
+“About the Data”
+1. Where did you download the data (e.g., a web URL)?
+We got the data from a web URL from the National Weather Service, specifically showing the
+towns and cities within Seattle’s forecasting region which includes most of Western
+Washington.
+2. How many observations (rows) are in your data?
+366 for the daily and 79 rows for the monthly (each row is a year for the monthly data)
+3. How many features (columns) are in the data?
+10 columns in the daily data, and 14 columns in the monthly data.
+4. What features in this data (i.e., information that the data set has) do you believe you could
+find in another data set? Some examples might include: time (e.g., year, month), geography
+(e.g., country, state, city, longitude, latitude), demographic information (e.g., age, height,
+education, occupation, etc.).
+In our data, geography would be similar across datasets, and so would time. But temperature and
+rainfall values might vary from source to source, especially considering exactly where the station is
+measuring from.
+Part III: Background Research/Inspiration
+1. https://www.tropicaltidbits.com/
+a. Our project has some similarities and differences to this. Tropical Tidbits is a free weather
+chart-hosting website that provides chart data and forecasts. Our project, however, is about
+the historical weather and change from then to now. Tropical tidbits focuses on upcoming
+forecasts and storms, whereas our project will aim to analyze the data that has already
+occurred.
+b. We are trying to give people the resources and tools to analyze the city’s climate data,
+whether it is for their own purposes or for projects. We want to see how trends can occur so
+that climatologists can make better sense of their data, which is similar to what Tropical
+Tidbits does, but the execution and the focus is definitely somewhat different.
+2. https://weatherspark.com/
+Weather Spark is a site that generates detailed weather reports for 1000s of locations around
+the world.
+a. Weather Spark allows us to get specific data from Seattle. Weather Spark is also centered
+around the main variables we will be looking at for this project. This source can help serve as
+a guide for us as we aim to translate raw meteorological data into effective visualizations.
+b. The source differs from our project as its data is more centered around averages rather than
+changes. This could serve as a problem as extreme outliers were looking for may be hidden.
+The source also serves a different audience as it mainly seems to be catered to tourists
+looking to plan a trip rather than the city planners we’ll be pitching to.
+3. Link 3 here…
+https://tidesandcurrents.noaa.gov/waterlevels.html?id=9447130&units=standard&bdate=19480101&e
+date=20260127&timezone=GMT&datum=MLLW&interval=m&action=data
+a. …This dataset tracks the tides/water levels in Seattle between 1948 to the present day.
+b. …This source matches our exact time frame and shares our goal of using historical data to
+find an upward trend that impacts city planning. The source helps look at a direct
+consequence of the atmospheric challenges we are analyzing.
+c. This source contrasts from our project as it focuses more on hydrological data, rather than
+meteorological data.
+4. Link 4 here…
+https://www.carbonbrief.org/mapped-how-every-part-of-the-world-has-warmed-and-could-continue-to-
+warm/
+a. …Carbon Brief is an interactive tool that allows you to see the historical warming of any
+location on Earth. In addition, it also allows you to see future projections of global warming.
+b. This source is similar to our project as it allows us to localize the data shown. This mirrors
+our goal of focusing solely on Seattle's data to make the trends relevant for local planners.
+c. … This source contrasts from our project as it relies heavily on future projections going all the
+way up until 2100. Our project is a historical analysis while this source projects some data.
+5. Link 5 here… https://www.ventusky.com/
+a. …Ventusky is an interactive site that visualizes meteorological data.
+b. … This source is similar to our project as it showcases in depth weather data. In addition, this
+source serves as a guide on how to make a visually appealing interface that is easy for the
+average person to follow. It also allows for multi layer analysis, where we can test multiple
+variables at once.
+c. This source differs from our project as its data only starts in 1979. The source also covers the
+entire earth, so specific data about Seattle may not be as in depth as we want it to be.
+More links as desired…
+
+```{r}
+library(tidyverse)
+library(plotly)
+library(ggplot2)
+library(maps)
+library(mapproj)
+library(mapdata)
+```
+```
+
+```{r}
+# Load NWS Data (1948-2024)
+nws <- read_csv("~/Downloads/nws.csv") %>%
+  rename(year = Year, 
+         nws_tmax = `Mean Max Temp (°F) +1`,
+         nws_tmin = `Mean Min Temp (°F) +1`,
+         nws_precip = `Total Precipitation (in) +1`) 
+glimpse(nws) 
+```
+
+https://www.weather.gov/
+
+The source is the National Weather service. It is reliable because it maintains the primary infrastructure of satellites and radar that serves as the scientific foundation for nearly all other weather forecasts in the United States.
+
+This is accurate historic weather data recorded daily since 1948. The data tells us exactly what the temperature and rainfall were at one specific location. This serves as our primary dataset for analyzing “Seattle’s” climate. By tracking this single location over 75+ years, we can see how the climate has changed. The dataset contains 4 columns: year, nws_tmax (Mean Max Temp), nws_tmin (Mean Min Temp), and nws_precip (Total Precipitation). The dataset contains 77 rows (annual summaries from 1948–2024). The biggest flaw among this data is that some precipitation measurement years such as 1998 are missing data. 
+
+```{r}
+# Load PRISM Data (1948-2024)
+prism <- read_csv("~/Downloads/prism.csv", skip = 10) %>%
+  rename(year = Date,
+         prism_precip = `ppt (inches)`,
+         prism_tmin = `tmin (degrees F)`,
+         prism_tmax = `tmax (degrees F)`) 
+glimpse(prism) 
+```
+
+https://prism.oregonstate.edu/ The data is produced by the PRISM Climate Group at Oregon State University. It uses a system that ingests data from over 25,000 observation stations. It is reliable, as groups like the USDA Risk Management Agency use it. This data represents the Annual precipitation, annual minimum degrees, annual mean degrees, and annual maximum degrees in Seattle. Joining these datasets lets us use PRISM as a “control group” to see if SeaTac’s concrete-heavy environment is heating up faster than the rest of the region’s natural climate. The dataset contains 5 columns: year, prism_precip (Precipitation), prism_tmin (Minimum Temp), tmean (degrees F) (Mean Temp), and prism_tmax (Maximum Temp). The data contains 77 rows. Prism doesn’t seem to have any issues as unlike NWS it is not missing any values.
+
+```{r}
+# Join datasets by year
+main_data <- left_join(nws, prism, by = "year")
+
+# Show joined data (REQUIRED)
+glimpse(main_data)  
+# ACTION 1: CLEANING
+# Filter out the row with "(Missing)*" text
+step1_data <- filter(main_data, nws_precip != "(Missing)*") 
+
+# Convert the column to a number
+clean_data <- mutate(step1_data, nws_precip = as.numeric(nws_precip))
+
+# ACTION 2: MUTATION (New Column)
+# Calculate the difference between NWS and PRISM
+clean_data <- mutate(clean_data, precip_diff = nws_precip - prism_precip)
+
+# ACTION 3: VISUALIZATION
+# Plot the temperature trend
+ggplot(data = clean_data, mapping = aes(x = year, y = nws_tmax)) +
+  geom_line(color = "blue") +
+  geom_smooth(method = "lm", color = "red") + 
+  labs(title = "Max Temp over the years",
+       y = "Max Temp (F)",
+       x = "Year") 
+# Show final data
+glimpse(clean_data)  
+```
+Section V: Providing Group Information
+
+The main topic of interest of our group (BC-4) was weather and climate data, and how that impacted the Pacific Northwest, and our group was between 8:30 and 9:20 on Wednesdays with TA Alissa Lau.
+
+Connor J. Boske Atmospheric and Climate Sciences cboske@uw.edu My interest in the topic stems from my long-time interest in weather, especially that of the PNW weather. My interest in data comes from looking at weather history records as a kid. I am interested in informatics because it is relevant to my interest in weather and climate.
+
+Finn Schmidt fschmi@uw.edu Undecided Major
+
+My interest in this topic comes from a deep care about the environment and the rapid changes it is facing. The data we are looking at in this project allows us to track the drastic weather changes in recent memory.
+
+My passion for data stems from a lifelong interest of tracking many different metrics. Whether it’s sports data, history, or weather patterns, I’ve always been interested.
+
+Coding Notes: I entirely used the tools that were available from the class activities and lectures, but one thing that helped me learn how to use and merge data came from a separate project I was doing in my free time to try and determine best and worst years based on snowpack data specifically in the Central Puget Sound basin. So, most of it was additional resources that helped me figure out how to use tools in class.
+
+1.
+Historically, the Pacific Northwest is an area defined by consistency. This consistency allowed for the region's infrastructure and culture to be built a certain way. However, recent trends suggest that the climate defined by its consistency, is rapidly coming to an end. This project will explore the shifting climate in Seattle between 1948 to the present day. We will be asking these three questions: 
+
+**1. How do NWS precipitation measurements compare to PRISMs data when tracking Seattle's changing rainfall? Are there any notable discrepancies in the data? What could those suggest?**
+
+**2. How have Seattle's daily minimum and maximum temperatures changed from 1948 to the present?**
+
+**3. Has the frequency of extreme precipitation events defined as days with more than one inch of rainfall increased over time?**  
+
+To analyze these questions we are looking at two primary datasets. The first dataset is the National Weather Service https://www.weather.gov/. The second dataset is PRISM https://prism.oregonstate.edu/. An outside source to help us answer one of the questions is Carbon Brief (https://www.carbonbrief.org/).  Carbon Brief helps us answer question 2 very well as it maps out exactly how surface temperatures have risen globally over the last century. 
+
+Our analysis is answering an important question because Seattle's infrastructure is fundamentally mismatched with extreme weather. Historically, homes and buildings in the region lacked air conditioning, and municipal drainage systems were engineered for steady drizzle rather than torrential downpours. Regarding the ethical questions or limitations of these datasets, since these are hard numbers with no human bias, it is difficult to see any limitations or ethical questions. 
+ 
+ 
+ 
+ 1.2: Providing Data Context
+https://www.weather.gov/
+The source is the National Weather Service. It is reliable because it maintains the primary infrastructure of satellites and radar that serves as the scientific foundation for nearly all other weather forecasts in the United States.
+This is accurate historic weather data recorded daily since 1948. The data tells us exactly what the temperature and rainfall were at one specific location. This serves as our primary dataset for analyzing “Seattle’s” climate. By tracking this single location over 75+ years, we can see how the climate has changed. The dataset contains 4 columns: year, nws_tmax (Mean Max Temp), nws_tmin (Mean Min Temp), and nws_precip (Total Precipitation). The dataset contains 77 rows (annual summaries from 1948–2024). The biggest flaw among this data is that some precipitation measurement years, such as 1998, are missing data.
+https://prism.oregonstate.edu/ The data is produced by the PRISM Climate Group at Oregon State University. It uses a system that ingests data from over 25,000 observation stations. It is reliable, as groups like the USDA Risk Management Agency use it. This data represents the annual precipitation, annual minimum degrees, annual mean degrees, and annual maximum degrees in Seattle. Joining these datasets lets us use PRISM as a “control group” to see if SeaTac’s concrete-heavy environment is heating up faster than the rest of the region’s natural climate. The dataset contains 5 columns: year, prism_precip (Precipitation), prism_tmin (Minimum Temp), tmean (degrees F) (Mean Temp), and prism_tmax (Maximum Temp). The data contains 77 rows. Prism doesn’t seem to have any issues as unlike NWS, it is not missing any values. Certain years such as 1998 are missing data.
+
+
+1.3: Providing Group Information
+The main topic of interest of our group (BC-4) was weather and climate data, and how that impacted the Pacific Northwest, and our group was between 8:30 and 9:20 on Wednesdays with TA Alissa Lau.
+Connor J. Boske Atmospheric and Climate Sciences cboske@uw.edu My interest in the topic stems from my long-time interest in weather, especially that of the PNW weather. My interest in data comes from looking at weather history records as a kid. I am interested in informatics because it is relevant to my interest in weather and climate.
+Finn Schmidt fschmi@uw.edu Undecided Major
+My interest in this topic comes from a deep care about the environment and the rapid changes it is facing. The data we are looking at in this project allows us to track the drastic weather changes in recent memory.
+My passion for data stems from a lifelong interest in tracking many different metrics. Whether it’s sports data, history, or weather patterns, I’ve always been interested.
+
+  
+
+```{r}
+library(tidyverse)
+
+# Step 1: 
+data_step1 <- read_csv("combined_data.csv") %>% 
+  mutate(nws_precip = as.numeric(nws_precip))
+
+# Step 2: 
+data_step2 <- data_step1 %>%
+  mutate(nws_precip = ifelse(is.na(nws_precip), prism_precip, nws_precip))
+
+# Step 3: 
+precip_clean <- data_step2 %>%
+  pivot_longer(
+    cols = c(nws_precip, prism_precip),
+    names_to = "data_source",
+    values_to = "precipitation_inches"
+  ) 
+``` 
+
+```{r}
+my_precipitation_graph <- ggplot(data = precip_clean, aes(x = year, y = precipitation_inches, color = data_source)) +
+  geom_line(linewidth = 1) +
+  labs(
+    title = "Seattle Annual Precipitation: NWS vs. PRISM",
+    x = "Year",
+    y = "Total Precipitation (Inches)",
+    color = "Data Source"
+  ) +
+  scale_color_manual(
+    values = c("nws_precip" = "purple", "prism_precip" = "gold"),
+    labels = c("NWS (Ground Station)", "PRISM (Spatial Model)")
+  ) +
+  theme_minimal()
+
+my_precipitation_graph
+ggplotly(my_precipitation_graph) 
+```
+
+The line graph compares the NWS precipitation data to the PRISM precipitation data. The visualization reveals notable discrepancies such as notable years where one of the two sets is clearly higher than the other. 
+
+For this analysis, The intermediate tool I used was Missing Data Handling. The NWS dataset was missing a precip. value for 1998 and 2021. Instead of removing the row, I used a  `mutate` with ifelse` to replace the NA with the PRISM estimate for that same year. I needed to do this transformation to prevent a gap in the middle of our line graph. The alternative without using this tool would be using drop_na(), which would have completely deleted 1998 from the dataset and erased our valid temperature data for that year. 
+
+I used the tool scale_color_manual(). The class exercises only taught automatic colors and pre made palettes. I needed this function to force specific custom colors. I watched this video to learn how to do it. https://www.youtube.com/watch?v=GH98CFqoctc 
+
+
+```{r}
+finalproj_df <- read.csv("combined_data.csv")
+library(ggplot2)
+library(maps)
+library(mapproj)
+library(mapdata)
+
+
+ggplot(data = finalproj_df) +
+  geom_line(aes(x = year, y = prism_tmean, color = "white")) + 
+  labs(
+    title = "Seattle Average Annual Temperature",
+    x = "Year",
+    y = "Average Temperature Annually",
+    color = "Data Source"
+  ) +
+  scale_color_manual(
+    values = ("prism_tmean" = "grey"),
+    labels = ("avg_annual_temperature")
+  ) +
+  theme_minimal()
+  
+  
+
+```
+```{r}
+# get only years > 40 inches of precip
+precip_clean_filtered <- precip_clean %>%
+  filter(precipitation_inches > 40)
+
+ggplot(data = precip_clean_filtered) +
+  geom_point(aes(x = year, y = precipitation_inches), color = "black") + 
+  labs(
+    title = "Seattle Yearly Rainfall > 40 inches",
+    x = "Year",
+    y = "Total Rainfall Annually",
+    color = "Data Source"
+  ) +
+  scale_color_manual(
+    values = ("prism_tmean" = "grey"),
+    labels = ("avg_annual_rainfall")
+  ) +
+  theme_minimal()
+```
+Conclusion
+One of the major takeaways from our project revolves around how we measure Seattle's shifting rainfall. When answering our first question regarding the discrepancies between NWS and PRISM precipitation data, we found that relying on a single weather station does not tell the full story of the region's climate volatility. In particular, our analysis indicates that the total amount of rainfall experienced throughout the larger Seattle area is probably underestimated in the NWS airport data.  
+
